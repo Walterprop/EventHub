@@ -1,0 +1,23 @@
+{
+  "name": "eventhub",
+  "version": "1.0.0",
+  "description": "Piattaforma completa per la gestione eventi con approvazione admin",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev": "cd backend && npm run dev",
+    "install-backend": "cd backend && npm install",
+    "build": "cd backend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/eventhub.git"
+  },
+  "keywords": ["events", "management", "nodejs", "mongodb", "socketio"],
+  "author": "EventHub Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
