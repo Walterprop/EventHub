@@ -108,7 +108,8 @@ const options = {
     }
   },
   apis: [
-    '/app/backend/src/routes/*.js'
+    './src/routes/*.js',
+    './backend/src/routes/*.js'
   ]
 };
 
