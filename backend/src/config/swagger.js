@@ -32,8 +32,10 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
-        description: 'Development server',
+        url: process.env.NODE_ENV === 'production' 
+          ? 'https://eventhub-fh0o.onrender.com' 
+          : 'http://localhost:5000',
+        description: process.env.NODE_ENV === 'production' ? 'Production server' : 'Development server',
       },
     ],
     components: {
